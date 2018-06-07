@@ -12,11 +12,10 @@ const VideoDetail = ({video}) => {
       <div id='mainVideo' className="embed-responsive embed-responsive-16by9">
         <iframe className='embed-responsive-item' src={url}></iframe>
       </div>
-
-      <div className='details'></div>
-        <div>{video.snippet.title}</div>
-        <div>{video.snippet.description}</div>
-
+      <div className='details'>
+        <div className='media-body'>{video.snippet.title}</div>
+        <div className='media-body'>{video.snippet.description}</div>
+      </div>
     </div>
 
   )

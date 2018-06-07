@@ -11,7 +11,6 @@ const VideoList = (props) => {
         key={video.etag}
         video={video}
       />
-
     );
   });
   return (
@@ -20,6 +19,5 @@ const VideoList = (props) => {
     </ul>
   );
 };
-
 
 export default VideoList;

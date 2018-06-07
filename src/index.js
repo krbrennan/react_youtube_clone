@@ -7,6 +7,9 @@ import VideoList from './components/video_list';
 import YTSearch from 'youtube-api-search';
 import VideoListItem from './components/video_list_item';
 import VideoDetail from './components/video_detail';
+import '../src/style.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 const API_KEY = 'AIzaSyCf3JVq5QRqy4AiKvOwAgRvmVmXC4WSU5E';
 
