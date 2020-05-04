@@ -11,7 +11,8 @@ import '../src/style.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
-const API_KEY = 'AIzaSyCf3JVq5QRqy4AiKvOwAgRvmVmXC4WSU5E';
+const API_KEY = 'AIzaSyBAGHK42Hlr6eMA2qFphMaOa1CTp_wxBTo';
+
 
 
 class App extends Component {
