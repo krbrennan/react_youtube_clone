@@ -1,7 +1,8 @@
 
 .search-bar {
-  justify-content: center;
-  margin: 2em;
+  /* justify-content: center; */
+  padding:0;
+  margin: 3em 1em;
   width: 75%;
 }
 .video-item img {
@@ -11,8 +12,8 @@
 .search-bar input {
   width: 75%;
   align-items: center;
-  display: block;
-  margin: 0 auto;
+  /* display: block; */
+  /* margin: 0 auto; */
 }
 
 /* Main Video */
@@ -43,6 +44,13 @@
 }
 
 .video-detail .details {
+  padding: 1em;
+}
+
+.media-body:first-child {
+  border-right: 2px solid grey;
+}
+.description {
   padding: 1em;
 }
 

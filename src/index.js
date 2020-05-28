@@ -23,7 +23,7 @@ class App extends Component {
       videos: [],
       selectedVideo: null
     };
-    this.videoSearch('vsauce');
+    this.videoSearch('vsauce videos');
   }
 
   videoSearch(term) {
@@ -38,7 +38,7 @@ class App extends Component {
 
   render () {
     return (
-      <div>
+      <div className='container-fluid'>
       <SearchBar onSearchTermChange={term => this.videoSearch(term)} />
       <VideoDetail video={this.state.selectedVideo}/>
       <VideoList
