@@ -11,7 +11,8 @@ import '../src/style.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
-const API_KEY = 'AIzaSyBAGHK42Hlr6eMA2qFphMaOa1CTp_wxBTo';
+// const API_KEY = 'AIzaSyBAGHK42Hlr6eMA2qFphMaOa1CTp_wxBTo';
+const API_KEY = "AIzaSyDldr2D9ojBF23ArFZ1RYmSS6K2HOZFAoo";
 
 
 
